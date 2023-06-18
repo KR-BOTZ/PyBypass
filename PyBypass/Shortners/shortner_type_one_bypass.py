@@ -104,13 +104,7 @@ shortner_dict =  {
          "http?://(rocklink\.in/)\S+",
          "https://rocklink.in/",
          6
-      ], 
-      "https://onepagelink.in/":[
-         "http?://(onepagelink\.in/)\S+", 
-         "https://onepagelink.in/", 
-         5
-     ]
- 
+      ]
  }
  
 def shortner_bypass(shortner_url:str, domain: str, sleep_time:int)-> str:
