@@ -103,7 +103,12 @@ shortner_dict =  {
          "https://ezeviral.com/2022/03/01/why-is-cloud-hosting-the-ideal-solution/",
          3
      ],
-     
+     "https://onepagelink.in/": [
+         "https?://(onepagelink\.in/)\S+",
+         "https://go.onepagelink.in/",
+         "https://gorating.in/",
+         5
+     ],
      
      
 }  
