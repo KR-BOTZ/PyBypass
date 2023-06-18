@@ -124,7 +124,7 @@ class PyBypass:
 		if bypasser_function is not None:
 			return self.redirect_function(url, bypasser_function, **kwargs)
 		else:
-			raise BypasserNotFoundError("Could not find a bypasser script found for this URL.")
+			raise BypasserNotFoundError("Could not find a bypasser script found for this URL. by @KR_BOtz")
 
 
 def bypass(url, name=None, **kwargs):
