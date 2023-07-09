@@ -84,11 +84,11 @@ class PyBypass:
 		try:
 			bypassed_value = eval(bypasser_function + f"('{url}'{parameter})")
 		except Exception as e:
-			raise UnableToBypassError("Unable to bypass this link. Possible reason can be cloudfare protection, wrong link, wrong parameters, expired  link or script is patched")
+			raise UnableToBypassError("Unable to bypass this link. Possible reason can be cloudfare protection, wrong link, wrong parameters, expired  link or script is patched **By @KR_BOtz**")
 	
 		
 		if bypassed_value == None:
-			raise UnableToBypassError("Unable to bypass this link. Possible reason can be cloudfare protection, wrong link, wrong parameters, expired  link or script is patched")
+			raise UnableToBypassError("Unable to bypass this link. Possible reason can be cloudfare protection, wrong link, wrong parameters, expired  link or script is patched **BYX @KR_BOtz**")
 		return bypassed_value
 		 
 		 
