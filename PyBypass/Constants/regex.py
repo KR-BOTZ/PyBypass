@@ -56,7 +56,7 @@ MAIN_REGEX = {
 	'https?://(link\.tnlink\.in/)\S+': ['tnlink', 'shortner_type_two_bypass'],
 	'https?://(open2get\.in/)\S+': ['open2get', 'shortner_type_two_bypass'],
 	'https?://(onepagelink\.in/)\S+': ['onepagelink', 'shortner_type_two_bypass'], 
-	
+	'https?://(tamizhmasters\.com/)\S+': ['tamizhmasters','shortner_type_two_bypass'], 
 
     'https?://(anonfiles\.com)\S+': ['anonfiles', 'anonfiles_bypass'],
     'https?://(antfiles\.com\/\?dl\=)\S+': ['antfiles', 'antfiles_bypass'],
