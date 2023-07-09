@@ -103,10 +103,10 @@ class PyBypass:
 				response = requests.get(url)
 
 			except Exception as e:
-				raise UrlConnectionError("Not able to establish a successful connection with given URL. It is probably protected by cloudfare.")
+				raise UrlConnectionError("Not able to establish a successful connection with given URL. It is probably protected by cloudfare. x By : @KR_BOtz ")
 			
 			if response.status_code != 200:
-				raise UrlConnectionError("Not able to establish a successful connection with given URL. It is probably protected by cloudfare.")
+				raise UrlConnectionError("Not able to establish a successful connection with given URL. It is probably protected by cloudfare. X By : @KR_BOtz ")
 	
 	
 		bypasser_function = None
