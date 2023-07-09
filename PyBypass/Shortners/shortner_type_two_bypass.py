@@ -112,7 +112,7 @@ shortner_dict =  {
      "https://tamizhmasters.com/": [
          "https?://(tamizhmasters\.com/)\S+",
          "https://tamizhmasters.com/",
-         "https://ittamilan.com/",
+         "https://pokgames.com/",
          8
      ],
      
